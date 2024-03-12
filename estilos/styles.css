@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+:root{
+    /*cores*/
+    --cor-red: #C1001E;
+    --cor-white: #F0F0F0;
+    --cor-yellow: #E7FD17;
+    --cor-black: #000000;
+    /*fontes*/
+    --font-principal: "Montserrat", sans-serif;;
+}
+body{
+    font-family: var(--font-principal);
+    background-color: var(--cor-white);
+}
+header{
+    box-shadow: 0px 0px 7px #D7D7D7;
+}
+header p{
+    color: var(--cor-black);
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 80px;
+    background-color: var(--cor-red);
+}
+.introduction-text span{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-yellow);
+}
+.introduction-text h1{
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--cor-white);
+}
+.introduction-text i{
+    padding-left: 5px;
+}
+.top-nav{
+    font-size: 12px;
+    font-weight: normal;
+}
+.top-nav a, p{
+    text-decoration: none;
+    color: var(--cor-white);
+    border-right: 1px solid var(--cor-white);
+    padding: 0px 10px;
+}
+.center-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 3px;
+    height: 16vh;
+    background-color: var(--cor-white);
+}
+.left-content {
+    display: flex;
+    align-items: center;
+}
+.left-content p{
+    color: var(--cor-black);
+    font-size: 12px;
+}
+.left-content img{
+    width: 150px;
+}
+.container-text i{
+    padding-right: 5px;
+    color: var(--cor-red);
+}
+.container-text p{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.sector{
+    font-weight: bold;
+}
+.time{
+    font-size: 11px;
+    text-decoration: underline;
+}
+.login{
+    display: flex;
+    gap: 100px;
+}
+.login p{
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login i{
+    padding-right: 10px;
+    font-size: 20px;
+    color: var(--cor-red);
+}
+.login i:hover{
+    cursor: pointer;
+}
+.basker i{
+    color: var(--cor-black);
+}
+.basker i:hover{
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar p{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 20px;
+    background-color: var(--cor-red);
+    height: 20px;
+    margin-right: 2px;
+}
+.search-bar p:hover{
+    cursor: pointer;
+}
+.search-bar i{
+    color: var(--cor-white);
+}
+#search{
+    border: none;
+    background-color: #D7D7D7;
+    font-size: 12px;
+    height: 40px;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+::placeholder{
+    padding: 20px 30px;
+    font-size: 12px;
+}
+.bottom-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    padding: 5px 60px;
+    gap: 20px;
+}
+.menu{
+    font-size: 30px;
+}
+.horti-menu .buy{
+    font-size: 12px;
+}
+.bottom-header span{
+    font-weight: bold;
+}
+.second-nav a{
+    color: var(--cor-black);
+    padding-right: 50px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #554d4d;
+}
+.second-nav i{
+    padding-right: 10px;
+    color: var(--cor-red);
+}
+main{
+    padding: 0px 60px;
+    background-color: var(--cor-white);
+}
+.publicity p{
+    color: var(--cor-black);
+}
+.container-text-publicity{
+    margin: 10px 0px;
+}
+.texts{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.texts p{
+    color: var(--cor-red);
+}
+.parter i{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.container-img img{
+    width: 100%;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
+.button-filter{
+    display: flex;
+    flex-direction: column;
+}
+.button-filter p{
+    line-height: 34px;
+}
+.order{
+    display: flex;
+    align-items: center;
+}
+.filter p{
+    color: var(--cor-black);
+}
+.number{
+    font-weight: bold;
+}
+.button span{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--cor-red);
+    background-color: var(--cor-yellow);
+    padding: 10px 17px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.order-01{
+    font-size: 14px;
+    font-weight: bold;
+}
+.order-02{
+    color: var(--cor-red);
+}
+.order i{
+    padding-left: 20px;
+    color: var(--cor-red);
+}
+.order span{
+    color: var(--cor-red);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 10px;
+    -ms-grid-column-align: center;
+    justify-items: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 235px;
+    padding-bottom: 60px;
+    background-color: var(--cor-white);
+    cursor: pointer;
+}
+.product img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.product p{
+    color: var(--cor-black);
+}
+.product p i{
+    font-size: 19px;
+    background-color: var(--cor-red);
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--cor-white);
+    cursor: pointer;
+}
+.product-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.product-price p{
+    font-size: 12px;
+}
+.item{
+    font-size: 16px;
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    font-size: 13px;
+}
+.peso{
+    color: var(--cor-red);
+}
+.then-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.then-footer h2{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.then-footer li{
+    font-size: 12px;
+    cursor: pointer;
+}
+.then-footer ul{
+    list-style: none;
+    line-height: 20px;
+}
+.then-footer-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+.then-footer-icons i{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.then-footer-icons span{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--cor-black);
+}
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--cor-red);
+    height: 25vh;
+    padding: 0px 60px;
+    gap: 10px;
+}
+.politicals p {
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+.left-content-foot img{
+    width: 90%;
+    border-radius: 50%;
+}
