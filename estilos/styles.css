@@ -248,11 +248,10 @@ main{
     color: var(--cor-red);
 }
 .products{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 10px;
-    -ms-grid-column-align: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .product{
     display: flex;
